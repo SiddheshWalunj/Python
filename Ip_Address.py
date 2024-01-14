@@ -3,6 +3,7 @@ import socket
 
 
 def ip_adress():
+    # this are the predefined library of python
     ip = socket.gethostbyname(socket.gethostname())
     return ip
 
